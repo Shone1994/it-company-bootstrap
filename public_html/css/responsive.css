@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 26, 2020, 8:37:42 PM
+    Author     : SHONE
+*/
+
+/*
+
+>0px   XS - EXTRA SMALL (NO NAME)
+
+
+>576px  SM - SMALL DEVICES
+
+
+>768px  MD - MEDIUM DEVICES
+
+
+>992px  LG - LARGE DEVICES
+
+
+>1200px   XL - EXTRA LARGE DEVICES
+
+
+*/
+
+@media(min-width:576px){
+
+
+}
+
+@media(min-width:768px){
+
+    .lead-section .carousel-item .caption{
+        width: 45%;
+    }
+.lead-section .carousel-item {
+    padding: 150px 0 120px;
+    background-size: 600px 600px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+    .portfolio-section .portfolio-item .portfolio-caption{
+    bottom: 17px;
+    left: 68px;
+    right: 68px;
+}
+
+
+}
+
+@media(min-width:992px){
+    /*header style*/
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 50px;
+    }
+
+    .lead-section .carousel-item .caption{
+        width: 40%;
+    }
+    
+    .lead-section .carousel-item {
+    padding: 150px 0 120px;
+    background-size: 700px 700px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+   
+.carousel-indicators{
+    bottom: 50px;
+}
+
+    .portfolio-section .portfolio-item .portfolio-caption{
+    bottom: 17px;
+    left: 40px;
+    right: 40px;
+}
+
+
+}
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1170px;
+    }
+
+    /*header style*/
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 68px;
+    }
+
+
+}

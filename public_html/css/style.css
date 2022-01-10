@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.11, 2020, 8:37:34 PM
+    Author     : Nenad Jovanovic
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-title{
+    color: #6DD1FF;
+}
+.bg-button{
+    background-color: #0E9FE2;
+}
+.btn-background{
+    background-color: #0E9FE2;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Anton', sans-serif; 
+    font-weight: 700;
+}
+
+
+.navbar .navbar-brand{
+    max-width: 50%;
+}
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #1085EA;
+
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.53px;
+    color:#A8A8A8;
+    text-align: center;
+    border-top: 2px solid #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover
+{
+    border-top: 2px solid #1085EA;
+    color: #1085EA;
+}
+
+
+
+/*main*/
+/*section home*/
+
+
+.lead-section .carousel-item{
+    padding: 211px 0 181px;
+    background-size: contain ;
+    background-position: right top;
+    background-repeat: no-repeat;
+
+}
+
+.lead-section .carousel-item background{
+    width: 100%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+   
+}
+
+
+.carousel-indicators li {
+   
+    width: 11px;
+    height: 11px;
+    background-color: #6DD1FF;
+    background-clip: padding-box;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+    border-radius: 50%;
+    margin-right: 19px;
+}
+
+/*about us*/
+
+.about-section{
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+/*Services*/
+
+.services-section .services-item ul li{
+    font-size: small;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    list-style: none;  
+  
+}
+
+.services-section .services-item{
+    transition: all 0.3s linear;
+    bottom: 0;
+    position: relative;
+}
+
+.services-section .services-item:hover{
+    bottom: 5px;
+}
+
+/*portfolio*/
+
+.portfolio-section .portfolio-item .portfolio-caption{
+    bottom: 17px;
+    left: 40px;
+    right: 40px;
+}
+
+
+.portfolio-section .portfolio-item .portfolio-caption{
+    display: none;
+}
+
+.portfolio-section .portfolio-item .portfolio-caption.active,
+.portfolio-section .portfolio-item:hover .portfolio-caption{
+    display: block;
+}
+
+.portfolio-section .portfolio-item img{
+    transition:all 0.3s linear;
+    
+}
+
+.portfolio-section .portfolio-item:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+/*CONTACT*/
+
+.contact-section{
+    padding: 148px 0 61px;
+    background: url(assets/img_footer.png) no-repeat center top;
+    background-size: cover;
+}
+
+.contact-section article iframe{
+    width: 100%;
+    height: 314px;
+}
